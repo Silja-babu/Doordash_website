@@ -1,0 +1,382 @@
+@font-face{
+    font-family:'TTNorms-Bold' ;
+    src: url(/Doordash/font/TTNorms-Bold.woff2);
+}
+@font-face{
+    font-family: 'TTNorms-Medium';
+    src: url(/Doordash/font/TTNorms-Medium.woff2);
+}
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    
+    box-sizing: border-box;
+}
+::after, ::before{
+    box-sizing: border-box;
+}
+body,html{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.banner-area{
+    height: 650px;
+    background-image: url(/Doordas_2/images/hero_desktop.webp);
+    background-color: rgb(244, 67, 35);
+   
+    padding: 0px 8px;
+    width: 100%;
+    justify-content: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+   
+    
+}
+.doordash{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.sub-doordash{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    height: 52px;
+}
+.subtitude-doordash{
+    display: none;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    height: 52px;
+}
+.head-doordash{
+    line-height: 0;
+    margin-left: 12px;
+}
+
+.discover-head{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+.discover-head h1{
+    color: white;
+    text-align: center;
+    max-width: 750px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.01px;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'TTNorms-Bold';
+}
+.side-head{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin-top: 16px;
+    z-index: 1;
+}
+.right-side{
+    flex: 1 1 0%;
+    padding-right: 24px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+}
+.sign-in a{
+    display: inline-flex;
+    min-height: 40px;
+    width: auto;
+    align-items: center;
+    justify-content: flex-start;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.01px;
+    font-weight: 700;
+    font-family: 'TTNorms-Bold';
+    
+}
+.sign-in{
+    background-color: #eb1700ff;
+    
+    
+}
+button{
+    background: transparent;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 9999px;
+    border: none;
+}
+.sign-up a{
+    
+    display: inline-flex;
+    min-height: 40px;
+    width: auto;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 9999px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    
+    color:#606060ff;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.01px;
+    font-weight: 700;
+    font-family: 'TTNorms-Bold';
+}
+.sign-up{
+    background-color: #ffffff;
+}
+.right-side{
+    display: none;
+
+}
+.hidden-side{
+   
+    flex: 1 1 0%;
+    padding-right: 24px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+}
+.hidden-side{
+    display: none;
+}
+.bottom-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+}
+.bottom{
+    display: flex;
+    min-height: 40px;
+    border: 2px solid white;
+    border-radius: 32px;
+    align-items: center;
+    background-color: #ffffff;
+    overflow-x: hidden;
+    color:#191919ff ;
+    width: 100%;
+    max-width: 408px;
+    
+    align-items: center;
+    justify-content: center;
+    padding-top: 6px;
+    padding-left:4px ;
+    padding-bottom:5px ;
+    padding-right: 8px;
+
+}
+.bottom ::placeholder{
+    
+    font-size: 16px;
+    font-family: 'TTNorms-Medium';
+    line-height: 22px;
+    letter-spacing: -0.01px;
+    font-weight: 500;
+    background: inherit;
+    
+
+}
+.bottom :placeholder-shown{
+    text-overflow: ellipsis;
+
+}
+.bottom .location{
+    max-width: 100%;
+    margin-left: 15.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottom .text{
+    flex-grow: 1;
+    max-width: 100%;
+    margin: 0 13px;
+
+}
+.bottom input{
+    border: none;
+}
+.arrow{
+    border: 2px solid #eb1700ff;
+    background: #eb1700ff;
+    border-radius: 9999px;
+    align-items: center;
+    max-width: 100%;
+    margin-right: 0px;
+    position: relative;
+    max-width: 100%;
+    margin: 0px;
+    display: inline-flex;
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    align-items: center;
+    justify-content: center;
+    
+
+    }
+    .arrow-2{
+        display: none;
+        height: 40px;
+        align-items: center;
+        width: 40px;
+        padding-left: 10px;
+    }
+.human-sign{
+    position: relative;
+    max-width: 100%;
+    margin-top: 16px;
+    padding-left: 12px;
+    padding-right: 12px;
+    display: flex;
+    flex-direction: row;
+    
+    min-height: 32px;
+    width: auto;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 9999px;
+    border: 2px solid white;
+    text-align: center;
+    background-color: #ffffff;
+    flex-grow: 1;
+   
+    
+}
+.human-sign span{
+   margin-left: 5px;
+    font-family: 'TTNorms-Medium';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.01px;
+    text-transform: none;
+    white-space: nowrap;
+    overflow: hidden;
+
+}
+.sign{
+    display: none;
+}
+.login{
+    display: none;
+}
+.in{
+    display: none;
+}
+.subtitude-doordash{
+    display: none;
+}
+@media(min-width:1024px){
+    .sign{
+        display: flex;
+    }
+    .buttom{
+        width: 408px;
+    }
+
+}
+@media(min-width:768px){
+    .right-side{
+        display: flex;
+    }
+}
+@media(max-width:1023px) and (min-width:768px){
+    .in{
+        display: flex;
+    }
+}
+@media(max-width:767px){
+    .login{
+        display: flex;
+    }
+    .hidden-side{
+        display: flex;
+    }
+}
+@media(max-width:1184px){
+    .arrow{
+        display: none;
+    }
+    .arrow-2{
+        display: flex;
+    }
+}
+@media(min-width:768px){
+    .doordash{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        margin-top: 10px;
+        z-index: 1;
+        
+    }
+    .discover{
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        align-items: center;
+        justify-content: center;
+        margin-top: 65px;
+        
+    }
+    .buttom{
+        width: 408px;
+    }
+}
+@media(max-width:768px){
+    .sub-doordash{
+        display: none;
+    }
+    .subtitude-doordash{
+        display: flex;
+        align-items: center;
+    }
+    .subtitude-head{
+        line-height: 0;
+        margin-left: 12px;
+    }
+    .discover-head h1{
+        font-size: 22px;
+        max-width: 350px;
+        letter-spacing: 0px;
+        line-height: 28px;
+        text-align: center;
+    }
+}
