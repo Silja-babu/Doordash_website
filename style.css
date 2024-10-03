@@ -588,13 +588,14 @@ button{
     
     
 }
-@media(max-width:767px){
+@media(max-width:700px) and (min-width:401px){
     .banner-area{
         background-image:url(images/hero_mobile.avif);
         background-size: cover;
         height: 550px;
     }
 }
+
 @media(max-width:375px){
     .first-order{
         line-height: 20px;
@@ -1659,7 +1660,7 @@ footer{
     text-decoration: none;
     text-transform: none;
     display: block;
-    margin: 0px;
+    
     padding: 0px;
 }
 .subfooter a{
@@ -1837,7 +1838,7 @@ footer{
     margin-left: 12px;
 }
 
-@media(min-width:760px){
+@media(min-width:768px){
     .footer-three{
        padding-bottom: 47px;
         
@@ -1866,7 +1867,7 @@ footer{
         padding: 12px;
     }
 }
-@media(max-width:759px){
+@media(max-width:767px){
     .total-categories{
         display: flex;
         flex-direction: column;
@@ -1897,5 +1898,30 @@ footer{
     
 }
 
+@media(max-width:959px){
+    .footer-two{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .sub-footer-two{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
 
-
+@media(max-width:400px){
+   .banner-area{
+    height: 550px;
+   }
+   .human-sign span{
+    margin-left: 4px;
+    
+   }
+}
+@media(max-width:767px){
+    .banner-area{
+        height: 550px;
+        
+    }
+}
