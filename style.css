@@ -1573,6 +1573,7 @@ button{
         
         overflow-x: scroll;
         width: 100%;
+        scrollbar-width: none;
     }
     .inside-scroller{
         display: grid;
@@ -1583,6 +1584,7 @@ button{
         margin-left: 5%;
         padding: 20px;
         overflow-x: scroll;
+        scrollbar-width: none;
     }
     .first-picture{
       padding: 5px;
