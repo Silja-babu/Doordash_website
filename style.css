@@ -2110,3 +2110,17 @@ footer{
         top: -1px;
     }
 }
+@media(max-width:365px){
+    .bottom{
+        width: 300px;
+        overflow-x: hidden;
+    }
+    .above-banner{
+        box-sizing: border-box;
+    }
+    .list-banner{
+        column-gap: 2px;
+        padding-left: 5px;
+        padding-right: 4px;
+    }
+}
